@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "GOb-V5-pOR.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Visa **** **** **** 4242 \"; ObjectID = \"GOb-V5-pOR\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Visa **** **** **** 4242 "
+          }
+        }
+      }
+    },
+    "yJE-G8-nv3.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Choose\"; ObjectID = \"yJE-G8-nv3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Choose"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

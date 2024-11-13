@@ -1,0 +1,6 @@
+framework module Pods_Shif_ShifUITests {
+  umbrella header "Pods-Shif-ShifUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

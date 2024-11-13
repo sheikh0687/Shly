@@ -1,0 +1,264 @@
+/* 
+  Localizable.strings
+  Shif
+
+  Created by Techimmense Software Solutions on 02/11/23.
+*/
+
+"No Internet Connection. Make sure your device is connected to the internet" = "Aucune connexion Internet. Assurez-vous que votre appareil est connecté à Internet";
+
+"Please enter the required details" = "Veuillez saisir les détails requis";
+
+"Please enter the valid email" = "Veuillez saisir l'e-mail valide";
+
+"OK" = "D'accord";
+
+"Loading" = "Chargement";
+
+"Please Wait!!" = "Veuillez patienter!!";
+
+"Cancel" = "Annuler";
+
+"DATE" = "DATE";
+
+"Done" = "Terminé";
+
+"Camera" = "Camera";
+
+"Gallery" = "Galerie";
+
+"Yes" = "Oui";
+
+"No" = "Non";
+
+"Enter" = "Entrer";
+
+"New password has sent to your email!" = "Un nouveau mot de passe a été envoyé à votre adresse e-mail !";
+
+"Create New Account" = "Créer un nouveau compte";
+
+"Required First Name" = "Prénom requis";
+
+"Required Last Name" = "Nom de famille requis";
+
+"Email Address Not Found" = "Nom de famille requis";
+
+"Please Enter the Password!" = "Veuillez saisir le mot de passe !";
+
+"Please Confirm Password" = "Veuillez confirmer le mot de passe";
+
+"Please Read the CGU For Proceed" = "Veuillez lire les CGU pour continuer";
+
+"Congratulation Your account has been created successfully!" = "Félicitations, votre compte a été créé avec succès !";
+
+"Terms and Conditions" = "Conditions générales";
+
+"Privacy Policy" = "Politique de confidentialité";
+
+"Location Not Found" = "Politique de confidentialité";
+
+"Address added successfully" = "Politique de confidentialité";
+
+"Home" = "Accueil";
+
+"My Bookings" = "Mes Réservations";
+
+"Message" = "Message";
+
+"Settings" = "Paramètres";
+
+"Booking has been cancelled successfully!" = "La réservation a été annulée avec succès !";
+
+"Edit Profile" = "Modifier le profil";
+
+"Profile updated successfully!" = "Profil mis à jour avec succès !";
+
+"My Address" = "Mon adresse";
+
+"Address Deleted Successfully" = "Adresse supprimée avec succès";
+
+"Change Password" = "Changer le mot de passe";
+
+"Password changed successfully!" = "Le mot de passe a été modifié avec succès !";
+
+"Language" = "Langue";
+
+"Notification" = "Notification";
+
+"Search Results" = "Résultats de la recherche";
+
+"Details" = "Details";
+
+"Please select the service" = "Veuillez sélectionner le service";
+
+"Booking Request" = "Demande de réservation";
+
+"Please select the time slot" = "Veuillez sélectionner la plage horaire";
+
+"This time slot is already booked by someone!" = "Ce créneau horaire est déjà réservé par quelqu'un !";
+
+"Confirm Booking" = "Confirmer la réservation";
+
+"Please select the address" = "Veuillez sélectionner l'adresse";
+
+"Please select rating!" = "Veuillez sélectionner une note !";
+
+"Please enter the feedback" = "Veuillez saisir les commentaires";
+
+"Rating submitted successfully" = "Note soumise avec succès";
+
+"Contact" = "Contact";
+
+"Write" = "Écrire";
+
+"Please Enter message" = "Veuillez saisir un message";
+
+"Reason" = "Raison";
+
+"Please enter the reason" = "Veuillez saisir le motif";
+
+"Payment" = "Paiement";
+
+"Card Is Invalid!" = "La carte n'est pas valide !";
+
+"Card Is Incomplete!" = "La carte est incomplète !";
+
+"Something Went Wrong!" = "Quelque chose s'est mal passé !";
+
+"Add Service" = "Ajouter un service";
+
+"Please enter the title" = "Veuillez saisir le titre";
+
+"Please enter the price" = "Veuillez saisir le prix";
+
+"Please enter the description" = "Veuillez saisir la description";
+
+"Please select the category" = "Veuillez sélectionner la catégorie";
+
+"Please select the sub-category" = "Veuillez sélectionner la sous-catégorie";
+
+"Service added successfully!" = "Service ajouté avec succès !";
+
+"Earning" = "Gagner";
+
+"Your booking accepted successfullly!" = "Votre réservation a été acceptée avec succès !";
+
+"Booking completed successfullly!" = "Réservation terminée avec succès !";
+
+"Manage Profile" = "Gérer le profil";
+
+"Wallet" = "Portefeuille";
+
+"My Service" = "Mes Services";
+
+"Deleted Successfully" = "Supprimé avec succès";
+
+"Update Service" = "Service de mise à jour";
+
+"Service updated successfully!" = "Service mis à jour avec succès !";
+
+"Gallary" = "Galerie";
+
+"Gallery photo added successfully" = "Photo de la galerie ajoutée avec succès";
+
+"Are you sure to delete this image" = "Êtes-vous sûr de supprimer cette image";
+
+"Request Details" = "Détails de la demande";
+
+"Choose Account Type" = "Choisir le type de compte";
+
+"CUSTOMER" = "CLIENT";
+
+"PROVIDER" = "prestataire";
+
+"I want to look good, i need to book" = "Je veux bien paraître, je dois réserver";
+
+"I am the manager of a hair Provider and i want to add my Provider" = "Je suis gérant d'un prestataire coiffure et je souhaite ajouter mon prestataire";
+
+"Forgot Password" = "Mot de passe oublié";
+
+"Service For :" = "Service pour :";
+
+"You have 1 pending withdraw request for" = "Vous avez 1 demande de retrait en attente pour";
+
+"No pending request found" = "Aucune demande en attente trouvée";
+
+"Update" = "Mise à jour";
+
+"Delete" = "Supprimer";
+
+"Accept" = "Accepter"; 
+
+"Reject" = "Rejeter";
+
+"Select Sub Category" = "Sélectionnez une sous-catégorie";
+
+"Add your Provider details" = "Ajoutez les détails";
+
+"Add Provider image" = "Ajouter une image";
+
+"Add provider Cover Image" = "Ajouter une image de couverture";
+
+"Provider Name" = "Nom";
+
+"Manage Home Service Fee" = "Gérer les frais de service à domicile";
+
+"Write something about your service" = "Écrivez quelque chose sur votre service";
+
+"Select Provider open and close time" = "Sélectionner l'heure d'ouverture et de fermeture";
+
+"Your account has been successfully registered. Please wait for the administrator's approval before using the application.
+Thank you for your understanding" = "Votre compte a été enregistré avec succès. Veuillez attendre l'approbation de l'administrateur pour utiliser l'application.
+Merci de votre compréhension.";
+
+"Your account is being verified.
+Please wait for the administrator's approval before using the application.
+Thank you for your understanding" = "Votre compte est en cours de vérification.
+Veuillez attendre l’approbation de l’administrateur pour utiliser l’application.
+Merci de votre compréhension";
+
+"Company" = "Entreprise";
+
+"Saved Cards" = "Cartes enregistrées";
+
+"Add Card" = "Ajouter une carte";
+
+"Booking sent successfully, please wait for provider confirmation. You can see booking status in My Orders Tab" = "Réservation envoyée avec succès, veuillez attendre la confirmation du fournisseur. Vous pouvez voir le statut de la réservation dans l'onglet Mes commandes";
+
+"Card saved successfully!" = "Carte enregistrée avec succès!";
+
+"Your Booking request is accepted" = "Votre demande de Réservation est acceptée";
+
+"Your booking request declined by the provider, please book your request with other provider. Thanks" = "Votre demande de réservation refusée par le fournisseur, veuillez réserver votre demande auprès d'un autre fournisseur. Merci";
+
+"Already one withdraw request sent" = "Déjà une demande de retrait envoyée";
+
+"Request added successfully" = "Demande ajoutée avec succès";
+
+"Withdraw" = "Retirer";
+
+"We will contact you soon" = "Nous vous contacterons bientôt";
+
+"Notify Arrived" = "Notifier l'arrivée";
+
+"Notify Start" = "Notifier le démarrage";
+
+"Notify Complete" = "Notifier terminé";
+
+"Your professional is on the way" = "Votre professionnel est en route";
+
+"Your professional arrived on your location" = "Votre professionnel est arrivé chez vous";
+
+"Your professional start work" = "Votre début de travail professionnel";
+
+"Completed" = "Complété";
+
+"Pending" = "En attente";
+
+"Accepted" = "Accepté";
+
+"Notify On The Way" = "Notifier en chemin";
+
+"Reviews" = "Commentaires";
+
+"Please Read the CGV For Proceed" = "Veuillez lire les CGV pour continuer";

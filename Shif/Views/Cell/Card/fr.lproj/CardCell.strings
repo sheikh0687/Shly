@@ -1,0 +1,9 @@
+
+/* Class = "UILabel"; text = "Visa **** **** **** 4242 "; ObjectID = "GOb-V5-pOR"; */
+"GOb-V5-pOR.text" = "Visa **** **** **** 4242 ";
+
+/* Class = "UIButton"; normalTitle = "Choose"; ObjectID = "yJE-G8-nv3"; */
+"yJE-G8-nv3.normalTitle" = "Choisir";
+
+/* Class = "UIButton"; normalTitle = "Delete"; ObjectID = "1il-0e-NAH"; */
+"1il-0e-NAH.normalTitle" = "Supprimer";

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Image references" minToolsVersion="12.0"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="SubCategoryCell" rowHeight="127" id="KGk-i7-Jjw" customClass="SubCategoryCell" customModule="Shif" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="246" height="127"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="246" height="127"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="JCw-cf-V5e">
+                        <rect key="frame" x="6" y="4" width="234" height="119"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jTe-Cz-QFk">
+                                <rect key="frame" x="10" y="10" width="180" height="99"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="VUb-je-w8E">
+                                <rect key="frame" x="200" y="49.666666666666664" width="24" height="20.333333333333336"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="24" id="6V1-Sb-LRu"/>
+                                    <constraint firstAttribute="height" constant="24" id="kwg-je-TlP"/>
+                                </constraints>
+                                <imageReference key="image" image="chevron.right" catalog="system" renderingMode="hierarchical">
+                                    <hierarchicalColors>
+                                        <color systemColor="labelColor"/>
+                                        <color systemColor="secondaryLabelColor"/>
+                                        <color systemColor="tertiaryLabelColor"/>
+                                    </hierarchicalColors>
+                                </imageReference>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" name="ThemeColor"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="VUb-je-w8E" secondAttribute="trailing" constant="10" id="Cnv-2C-du2"/>
+                            <constraint firstItem="jTe-Cz-QFk" firstAttribute="centerY" secondItem="VUb-je-w8E" secondAttribute="centerY" id="Lrr-iG-sVg"/>
+                            <constraint firstItem="jTe-Cz-QFk" firstAttribute="leading" secondItem="JCw-cf-V5e" secondAttribute="leading" constant="10" id="Mds-Xv-5og"/>
+                            <constraint firstAttribute="bottom" secondItem="jTe-Cz-QFk" secondAttribute="bottom" constant="10" id="WQ9-mz-UBL"/>
+                            <constraint firstItem="jTe-Cz-QFk" firstAttribute="top" secondItem="JCw-cf-V5e" secondAttribute="top" constant="10" id="im0-Hc-7x1"/>
+                            <constraint firstItem="VUb-je-w8E" firstAttribute="leading" secondItem="jTe-Cz-QFk" secondAttribute="trailing" constant="10" id="x0t-70-9zd"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="JCw-cf-V5e" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="6" id="332-bE-W19"/>
+                    <constraint firstAttribute="trailing" secondItem="JCw-cf-V5e" secondAttribute="trailing" constant="6" id="akc-yC-rhw"/>
+                    <constraint firstItem="JCw-cf-V5e" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="4" id="wM8-x5-fmf"/>
+                    <constraint firstAttribute="bottom" secondItem="JCw-cf-V5e" secondAttribute="bottom" constant="4" id="yDV-xe-ux0"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" name="ThemeColor"/>
+            <connections>
+                <outlet property="lblSubCategory" destination="jTe-Cz-QFk" id="Wz5-nu-bKd"/>
+            </connections>
+            <point key="canvasLocation" x="310" y="5"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="chevron.right" catalog="system" width="97" height="128"/>
+        <namedColor name="ThemeColor">
+            <color red="0.98039215686274506" green="0.98039215686274506" blue="0.98039215686274506" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="secondaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.59999999999999998" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="tertiaryLabelColor">
+            <color red="0.23529411764705882" green="0.23529411764705882" blue="0.2627450980392157" alpha="0.29803921568627451" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

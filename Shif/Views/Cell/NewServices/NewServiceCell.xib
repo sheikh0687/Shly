@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="NewServiceCell" rowHeight="108" id="KGk-i7-Jjw" customClass="NewServiceCell" customModule="Shif" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="108"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q1T-Em-hgM">
+                        <rect key="frame" x="5" y="5" width="310" height="98"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Test Renovation" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="HUc-On-aRA">
+                                <rect key="frame" x="0.0" y="39.333333333333336" width="100" height="19.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="250" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z93-bV-g9V">
+                                <rect key="frame" x="286.33333333333331" y="39.333333333333336" width="23.666666666666686" height="19.333333333333336"/>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailing" secondItem="z93-bV-g9V" secondAttribute="trailing" id="EUY-Pe-ZAv"/>
+                            <constraint firstItem="z93-bV-g9V" firstAttribute="centerY" secondItem="Q1T-Em-hgM" secondAttribute="centerY" id="Yah-QW-HFM"/>
+                            <constraint firstItem="HUc-On-aRA" firstAttribute="centerY" secondItem="Q1T-Em-hgM" secondAttribute="centerY" id="rke-gv-cfC"/>
+                            <constraint firstItem="HUc-On-aRA" firstAttribute="leading" secondItem="Q1T-Em-hgM" secondAttribute="leading" id="yAv-US-euZ"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="Q1T-Em-hgM" secondAttribute="bottom" constant="5" id="THq-DR-vQR"/>
+                    <constraint firstItem="Q1T-Em-hgM" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="cBH-2m-OxJ"/>
+                    <constraint firstItem="Q1T-Em-hgM" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="ddC-jC-44S"/>
+                    <constraint firstAttribute="trailing" secondItem="Q1T-Em-hgM" secondAttribute="trailing" constant="5" id="eX5-HA-Mop"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="lblServiceName" destination="HUc-On-aRA" id="XeZ-O2-4eh"/>
+                <outlet property="lblServicePrice" destination="z93-bV-g9V" id="6Vg-5K-Lbp"/>
+            </connections>
+            <point key="canvasLocation" x="369" y="2"/>
+        </tableViewCell>
+    </objects>
+</document>

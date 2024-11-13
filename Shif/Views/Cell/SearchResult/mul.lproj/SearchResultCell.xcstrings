@@ -1,0 +1,66 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "aQn-Pl-4kI.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"0.91 Km\"; ObjectID = \"aQn-Pl-4kI\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "0.91 Km"
+          }
+        }
+      }
+    },
+    "eOX-Rf-3Vu.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"View Details\"; ObjectID = \"eOX-Rf-3Vu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "View Details"
+          }
+        }
+      }
+    },
+    "ks3-d4-qCN.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"4.333(0)\"; ObjectID = \"ks3-d4-qCN\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "4.333(0)"
+          }
+        }
+      }
+    },
+    "PK5-98-hhh.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Provider\"; ObjectID = \"PK5-98-hhh\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Provider"
+          }
+        }
+      }
+    },
+    "xLe-Lb-7dF.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"P7, Saifee Nagar, Indore, Madhya Pradesh 452016, India, Madhya Pradesh\"; ObjectID = \"xLe-Lb-7dF\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "P7, Saifee Nagar, Indore, Madhya Pradesh 452016, India, Madhya Pradesh"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,197 @@
+ //https://techimmense.in/Shif/webservice/   == base url  
+
+
+  @GET("login") //done
+    Call<ResponseBody> login(@QueryMap HashMap<String, String> map);
+  param.put("email",binding.emailEt.getText().toString());
+        param.put("password",binding.passwordEt.getText().toString());
+        param.put("register_id",FireBaseToken);
+        param.put("lat",""+lat);
+        param.put("lon",""+lon);
+
+
+    @GET("signup")
+    Call<ResponseBody> signup(@QueryMap HashMap<String, String> map);
+ param.put("mobile",number);
+        param.put("mobile_with_code",mobile_str_with_code);
+        param.put("first_name",binding.firstName.getText().toString());
+        param.put("last_name",binding.lastName.getText().toString());
+        param.put("email",binding.emailEt.getText().toString());
+        param.put("password",binding.passwordEt.getText().toString());
+        param.put("register_id",FireBaseToken);
+        param.put("ios_register_id","");
+        param.put("type",type);
+
+        param.put("about_us",""+binding.aboutEt.getText().toString());
+        param.put("address",binding.areaNameTv.getText().toString());
+        param.put("lat",userlat);
+        param.put("lon",userlon);
+
+
+    @GET("change_password?")
+    Call<ResponseBody> changepassword(@Query("user_id") String user_id,@Query("password") String password,@Query("old_password") String old_password) ;
+
+    @GET("forgot_password?")
+    Call<ResponseBody> ForgotCall(@Query("email") String email);
+
+    @GET("get_profile?")
+    Call<ResponseBody> getProfile(@Query("user_id") String userID);
+
+    @GET("get_provider_details?") //done
+    Call<ResponseBody> getProviderDetail(@Query("provider_id") String provider_id);
+
+    @GET("get_provider_service?") //done
+    Call<ResponseBody> getMyServices(@Query("user_id") String user_id);
+
+    @GET("get_category?") //done
+    Call<ResponseBody> getCategory(@Query("user_id") String userID);
+
+    //https://techimmense.in/Shif/webservice/get_request_details?&request_id=1
+    @GET("get_request_details?") 
+    Call<ResponseBody> getBookingDetails(@Query("user_id") String userID,@Query("request_id") String request_id);
+
+
+    @GET("get_sub_category_list?") //done
+    Call<ResponseBody> getSubCategory(@Query("user_id") String userID,@Query("category_id") String category_id);
+
+    //https://techimmense.in/Cutz/webservice/get_provider_service_by_category?saloon_id=7
+    @GET("get_provider_service_by_category?")
+    Call<ResponseBody> getServiceByCategory(@Query("user_id") String user_id,@Query("provider_id") String provider_id);
+
+
+ @GET("get_user_notification_list?") //done
+    Call<ResponseBody> getNotifications(@Query("user_id") String user_id);
+
+
+
+    @GET("add_withdraw_request?")
+    Call<ResponseBody> sendWithdrawRequest(@Query("user_id") String user_id,@Query("amount") String amount,@Query("account_number") String account_number,@Query("account_holder_name") String account_holder_name,@Query("ifsc_code") String ifsc_code,@Query("description") String description) ;
+
+    @GET("get_withdraw_request?")
+    Call<ResponseBody> getPendingWithdrawRequest(@Query("user_id") String user_id) ;
+
+
+
+  @Multipart
+    @POST("update_profile") //done
+    Call<ProfileResponse> updateProfile(@QueryMap HashMap<String,String>map, @Part MultipartBody.Part filePart);
+
+    @GET("get_conversation_detail?") //done
+    Call<ResponseBody> getMyConversatiosn(@Query("receiver_id") String receiver_id);
+
+    @GET("delete_user_account?") //done
+    Call<ResponseBody> deleteUserAccount(@Query("user_id") String user_id);
+
+    @GET("add_user_address?") //done
+    Call<ResponseBody> addAddress(@Query("user_id") String user_id,@Query("title") String title,@Query("address") String address,@Query("lat") String lat,@Query("lon") String lon, @Query("timezone") String timezone);
+   
+
+    @GET("get_user_address?") //done
+    Call<ResponseBody> getMyAddress(@Query("user_id") String user_id);
+   
+
+    @GET("delete_user_address?") //done
+    Call<ResponseBody> deleteaddress(@Query("address_id") String address_id);
+
+    //https://techimmense.in/Shif/webservice/get_filter_provider
+    @GET("get_filter_provider?")
+    Call<ResponseBody> getFilterProvider(@Query("lat") String lat,@Query("lon") String lon,@Query("cat_id") String cat_id) ;
+
+    @GET("admin_offer_list?")
+    Call<ResponseBody> getAdminOffers(@Query("user_id") String user_id);
+
+
+   //https://techimmense.in/Cutz/webservice/get_saloon_details?provider_id=6
+   @GET("get_provider_details?") //done
+    Call<ResponseBody> getProviderDetail(@Query("provider_id") String provider_id);
+
+
+
+    @GET("stripe_payment?")
+        //@GET("strip_payment_new?")
+    Call<ResponseBody> stripeChargeApi(@Query("user_id") String user_id,@Query("provider_id") String provider_id,@Query("total_amount") String total_amount,@Query("payment_method") String payment_method,@Query("token") String token,@Query("currency") String currency,@Query("request_id") String request_id) ;
+
+
+
+    @Multipart
+    @POST("update_provider_profile") 
+    Call<ResponseBody> updateProviderProfile(
+            @Query("user_id") String user_id,
+            @Query("store_name") String store_name,
+            @Query("about_store") String about_store,
+            @Query("address") String address,
+            @Query("lat") String lat,
+            @Query("lon") String lon,
+            @Query("store_ope_closs_status") String store_ope_closs_status,
+            @Query("open_day") String open_day,
+            @Query("open_time") String open_time,
+            @Query("close_time") String close_time,
+            @Query("home_service") String home_service,
+            @Query("allow_reward_point") String allow_reward_point,
+            @Query("reward_point") String reward_point,
+            @Query("reward_point_value") String reward_point_value,
+            @Query("home_service_fee") String home_service_fee,
+            @Part MultipartBody.Part file,
+            @Part MultipartBody.Part filef
+
+    );
+
+    @GET("add_service?") //done
+    Call<ResponseBody> addServices(@QueryMap HashMap<String, String> map);
+
+    //https://techimmense.in/Cutz/webservice/get_provider_service?user_id=7
+    @GET("get_provider_service?") //done
+    Call<ResponseBody> getMyServices(@Query("user_id") String user_id);
+
+    //https://techimmense.in/Cutz/webservice/get_saloon_time?saloon_id=7
+    @GET("get_saloon_time?")
+    Call<ResponseBody> getSaloonTime(@Query("saloon_id") String saloon_id);
+
+    @GET("provider_delete_service?") //done
+    Call<ResponseBody> deleteServices(@Query("service_id") String service_id);
+
+
+  @GET("get_provider_image_list?")
+    Call<ResponseBody> getGallaryImages(@Query("user_id") String user_id);
+
+    //https://techimmense.in/Cutz/webservice/delete_provider_image_new?provider_image_id=
+    @GET("delete_provider_image_new?")
+    Call<ResponseBody> deleteGallaryImage(@Query("provider_image_id") String provider_image_id);
+
+
+ //https://techimmense.in/Cutz/webservice/add_book_appointment?user_id=1&provider_id=7&service_id=1,2&service_name=A,B&price=10,20&total_amount=30&date=&time=&time_slot=&emp_id=&emp_name=&address=&address_id=&description=&offer_id=&offer_code=&lat=&lon=&timezone=&payment_type=Cash&discount=
+    @GET("add_book_appointment?") //done
+    Call<ResponseBody> addBooking(@QueryMap HashMap<String,String>map);
+
+    //https://techimmense.in/Cutz/webservice/apply_offer?offer_code=Sun20&amount=100&user_id=1&barber_id=7
+    @GET("apply_offer?")
+    Call<ResponseBody> applyOffer(@QueryMap HashMap<String,String>map);
+
+
+    //https://techimmense.in/Cutz/webservice/apply_reward_points?user_id=1&amount=100&provider_id=6&points=2
+    @GET("apply_reward_points?")
+    Call<ResponseBody> applyRewards(@QueryMap HashMap<String,String>map);
+
+    //https://techimmense.in/Cutz/webservice/get_time_slot?saloon_id=6&now_current_day=Monday
+    @GET("get_time_slot?") //done
+    Call<ResponseBody> getAvbTimeSlot(@Query("user_id") String user_id,@Query("saloon_id") String saloon_id,@Query("now_current_day") String now_current_day,@Query("current_date") String current_date);
+
+
+
+    @GET("get_user_page?")
+    Call<ResponseBody> getUserPage();
+
+
+
+    @GET("add_rating_review?") //done
+    Call<ResponseBody> giveRating(@Query("request_id") String request_id,@Query("form_id") String form_id,@Query("to_id") String to_id,@Query("rating") String rating,@Query("feedback") String feedback,@Query("type") String type);
+
+    @GET("add_rating_review?")
+    Call<ResponseBody> giveRatingByProvider(@Query("request_id") String request_id,@Query("form_id") String form_id,@Query("to_id") String to_id,@Query("rating") String rating,@Query("feedback") String feedback,@Query("type") String type);
+
+    //https://techimmense.in/Cutz/webservice/get_rating_review?user_id=7
+    @GET("get_rating_review?") //done
+    Call<ResponseBody> getRatingReview(@Query("user_id") String user_id);
+
+
+

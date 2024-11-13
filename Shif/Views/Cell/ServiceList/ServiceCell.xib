@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="22154" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_12" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="22130"/>
+        <capability name="Named colors" minToolsVersion="9.0"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="none" indentationWidth="10" reuseIdentifier="ServiceCell" rowHeight="153" id="KGk-i7-Jjw" customClass="ServiceCell" customModule="Shif" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="153"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="153"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="zWZ-nq-qzn">
+                        <rect key="frame" x="5" y="5" width="279" height="143"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="cleaning" translatesAutoresizingMaskIntoConstraints="NO" id="2Kq-2o-Q1z">
+                                <rect key="frame" x="10" y="21.666666666666671" width="100" height="100"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="100" id="eCG-QN-EGg"/>
+                                    <constraint firstAttribute="height" constant="100" id="j1W-vA-z9B"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="100" id="j3x-oA-3J1"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Renovation Works" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1Yd-Tu-rS9">
+                                <rect key="frame" x="120" y="20" width="149" height="19.333333333333329"/>
+                                <fontDescription key="fontDescription" name="Avenir-Heavy" family="Avenir" pointSize="14"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="daJ-2w-ghC">
+                                <rect key="frame" x="120" y="59.333333333333329" width="120" height="32"/>
+                                <color key="backgroundColor" name="ButtonColor"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" priority="749" constant="120" id="ZuE-EZ-WYe"/>
+                                    <constraint firstAttribute="height" constant="32" id="edv-fC-bB1"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Avenir-Roman" family="Avenir" pointSize="12"/>
+                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                <state key="normal" title="See Provider">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                        <real key="value" value="10"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <connections>
+                                    <action selector="btnSeeProvider:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="iaB-AA-xec"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="daJ-2w-ghC" firstAttribute="top" secondItem="1Yd-Tu-rS9" secondAttribute="bottom" constant="20" id="4At-JQ-Ztb"/>
+                            <constraint firstItem="1Yd-Tu-rS9" firstAttribute="top" secondItem="zWZ-nq-qzn" secondAttribute="top" constant="20" id="9gQ-46-iHy"/>
+                            <constraint firstItem="2Kq-2o-Q1z" firstAttribute="leading" secondItem="zWZ-nq-qzn" secondAttribute="leading" constant="10" id="DQ1-X2-Z7c"/>
+                            <constraint firstItem="1Yd-Tu-rS9" firstAttribute="leading" secondItem="2Kq-2o-Q1z" secondAttribute="trailing" constant="10" id="Myt-d6-3Ke"/>
+                            <constraint firstAttribute="bottom" secondItem="daJ-2w-ghC" secondAttribute="bottom" constant="51.670000000000002" id="Pjt-LD-Biy"/>
+                            <constraint firstItem="daJ-2w-ghC" firstAttribute="leading" secondItem="2Kq-2o-Q1z" secondAttribute="trailing" constant="10" id="olI-tj-SpZ"/>
+                            <constraint firstItem="2Kq-2o-Q1z" firstAttribute="centerY" secondItem="zWZ-nq-qzn" secondAttribute="centerY" id="twW-Mq-5au"/>
+                            <constraint firstAttribute="trailing" secondItem="1Yd-Tu-rS9" secondAttribute="trailing" constant="10" id="z46-fP-ddf"/>
+                        </constraints>
+                        <userDefinedRuntimeAttributes>
+                            <userDefinedRuntimeAttribute type="number" keyPath="cornerRadius">
+                                <real key="value" value="10"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="number" keyPath="shadowOpacity">
+                                <real key="value" value="0.5"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="size" keyPath="shadowOffset">
+                                <size key="value" width="1" height="1"/>
+                            </userDefinedRuntimeAttribute>
+                            <userDefinedRuntimeAttribute type="color" keyPath="shadowColor">
+                                <color key="value" white="0.0" alpha="0.5" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            </userDefinedRuntimeAttribute>
+                        </userDefinedRuntimeAttributes>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstItem="zWZ-nq-qzn" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="5" id="K3D-8H-AhP"/>
+                    <constraint firstAttribute="bottom" secondItem="zWZ-nq-qzn" secondAttribute="bottom" constant="5" id="OrX-ts-l8E"/>
+                    <constraint firstItem="zWZ-nq-qzn" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="5" id="SYA-1v-cZG"/>
+                    <constraint firstAttribute="trailing" secondItem="zWZ-nq-qzn" secondAttribute="trailing" constant="5" id="wPt-Ly-uar"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <connections>
+                <outlet property="btnServiceOt" destination="daJ-2w-ghC" id="US5-Mn-0Ex"/>
+                <outlet property="img" destination="2Kq-2o-Q1z" id="SPT-K5-hix"/>
+                <outlet property="lblTitle" destination="1Yd-Tu-rS9" id="YI8-d9-bBU"/>
+            </connections>
+            <point key="canvasLocation" x="399.23664122137404" y="-20.070422535211268"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="cleaning" width="415" height="300"/>
+        <namedColor name="ButtonColor">
+            <color red="0.32941176470588235" green="0.32941176470588235" blue="0.32941176470588235" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </namedColor>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

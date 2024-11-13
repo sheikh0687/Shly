@@ -1,0 +1,30 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1Yd-Tu-rS9.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Renovation Works\"; ObjectID = \"1Yd-Tu-rS9\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Renovation Works"
+          }
+        }
+      }
+    },
+    "daJ-2w-ghC.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"See Provider\"; ObjectID = \"daJ-2w-ghC\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "See Provider"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

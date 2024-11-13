@@ -1,0 +1,30 @@
+
+/* Class = "UILabel"; text = "$ 350.0"; ObjectID = "4FK-dQ-A0B"; */
+"4FK-dQ-A0B.text" = "$ 350.0";
+
+/* Class = "UILabel"; text = "Service For : Test Renovation, Full Wall Wallpaper"; ObjectID = "C1m-fL-YS9"; */
+"C1m-fL-YS9.text" = "Service For : Test Renovation, Full Wall Wallpaper";
+
+/* Class = "UILabel"; text = "P7, Saifee nagar, Indore, Madhya Pradesh 452016, India"; ObjectID = "Cpz-gA-lWE"; */
+"Cpz-gA-lWE.text" = "P7, Saifee nagar, Indore, Madhya Pradesh 452016, India";
+
+/* Class = "UILabel"; text = "Service : Test Renovation, Full Wall Wallpaper"; ObjectID = "Zri-DD-MVU"; */
+"Zri-DD-MVU.text" = "Service : Test Renovation, Full Wall Wallpaper";
+
+/* Class = "UIButton"; normalTitle = "Chat"; ObjectID = "fu8-N0-6Sf"; */
+"fu8-N0-6Sf.normalTitle" = "Chat";
+
+/* Class = "UIButton"; normalTitle = "Complete"; ObjectID = "jf2-rw-rRY"; */
+"jf2-rw-rRY.normalTitle" = "Complété";
+
+/* Class = "UILabel"; text = "2023-10-02 09:00 - 09:30"; ObjectID = "l6N-gT-Ht3"; */
+"l6N-gT-Ht3.text" = "2023-10-02 09:00 - 09:30";
+
+/* Class = "UILabel"; text = "Raj Provider"; ObjectID = "y29-h2-n0y"; */
+"y29-h2-n0y.text" = "Raj Provider";
+
+/* Class = "UILabel"; text = "Accepted"; ObjectID = "yee-6p-oKm"; */
+"yee-6p-oKm.text" = "Accepted";
+
+/* Class = "UIButton"; normalTitle = "Cancel"; ObjectID = "dIB-Jf-Ktr"; */
+"dIB-Jf-Ktr.normalTitle" = "Annuler";

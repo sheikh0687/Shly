@@ -1,0 +1,78 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "a4U-cz-KYu.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"P7, Saifee nagar, Indore, Madhya Pradesh 452016, India\"; ObjectID = \"a4U-cz-KYu\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "P7, Saifee nagar, Indore, Madhya Pradesh 452016, India"
+          }
+        }
+      }
+    },
+    "ao2-Ns-hhH.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Service For : Test Renovation, Full Wall Wallpaper\"; ObjectID = \"ao2-Ns-hhH\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Service For : Test Renovation, Full Wall Wallpaper"
+          }
+        }
+      }
+    },
+    "Bcg-zX-6h3.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Cancel\"; ObjectID = \"Bcg-zX-6h3\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "FRD-vK-F51.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2023-10-02 09:00 - 09:30\"; ObjectID = \"FRD-vK-F51\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2023-10-02 09:00 - 09:30"
+          }
+        }
+      }
+    },
+    "tEr-Wn-0iZ.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Raj Provider\"; ObjectID = \"tEr-Wn-0iZ\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Raj Provider"
+          }
+        }
+      }
+    },
+    "xBz-WH-DdU.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"$ 350.0\"; ObjectID = \"xBz-WH-DdU\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "$ 350.0"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

@@ -1,0 +1,90 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "6bW-6a-DNi.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Give Rating\"; ObjectID = \"6bW-6a-DNi\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Give Rating"
+          }
+        }
+      }
+    },
+    "49o-hZ-474.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Service For : Test Renovation, Full Wall Wallpaper\"; ObjectID = \"49o-hZ-474\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Service For : Test Renovation, Full Wall Wallpaper"
+          }
+        }
+      }
+    },
+    "cyq-qI-bEP.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Raj Provider\"; ObjectID = \"cyq-qI-bEP\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Raj Provider"
+          }
+        }
+      }
+    },
+    "dhk-0e-wEl.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Completed\"; ObjectID = \"dhk-0e-wEl\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Completed"
+          }
+        }
+      }
+    },
+    "dQU-VD-wf2.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2023-10-02 09:00 - 09:30\"; ObjectID = \"dQU-VD-wf2\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2023-10-02 09:00 - 09:30"
+          }
+        }
+      }
+    },
+    "HN6-jh-W5z.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"P7, Saifee nagar, Indore, Madhya Pradesh 452016, India\"; ObjectID = \"HN6-jh-W5z\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "P7, Saifee nagar, Indore, Madhya Pradesh 452016, India"
+          }
+        }
+      }
+    },
+    "Mms-cV-ydn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"$ 350.0\"; ObjectID = \"Mms-cV-ydn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "$ 350.0"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

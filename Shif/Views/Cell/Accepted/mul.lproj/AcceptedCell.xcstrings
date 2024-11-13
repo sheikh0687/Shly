@@ -1,0 +1,114 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "1Bw-84-DIy.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Raj Provider\"; ObjectID = \"1Bw-84-DIy\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Raj Provider"
+          }
+        }
+      }
+    },
+    "4vf-zL-0e6.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"$ 350.0\"; ObjectID = \"4vf-zL-0e6\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "$ 350.0"
+          }
+        }
+      }
+    },
+    "82u-ke-oZc.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Completed\"; ObjectID = \"82u-ke-oZc\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Completed"
+          }
+        }
+      }
+    },
+    "GH3-hL-d7P.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Chat\"; ObjectID = \"GH3-hL-d7P\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Chat"
+          }
+        }
+      }
+    },
+    "hjn-Ka-rbe.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"Service For : Test Renovation, Full Wall Wallpaper\"; ObjectID = \"hjn-Ka-rbe\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Service For : Test Renovation, Full Wall Wallpaper"
+          }
+        }
+      }
+    },
+    "JdM-O7-CaV.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Give Rating\"; ObjectID = \"JdM-O7-CaV\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Give Rating"
+          }
+        }
+      }
+    },
+    "Qzz-6q-h9C.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"2023-10-02 09:00 - 09:30\"; ObjectID = \"Qzz-6q-h9C\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "2023-10-02 09:00 - 09:30"
+          }
+        }
+      }
+    },
+    "UTM-ca-8tm.normalTitle" : {
+      "comment" : "Class = \"UIButton\"; normalTitle = \"Cancel\"; ObjectID = \"UTM-ca-8tm\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "Cancel"
+          }
+        }
+      }
+    },
+    "Vyl-ru-nbn.text" : {
+      "comment" : "Class = \"UILabel\"; text = \"P7, Saifee nagar, Indore, Madhya Pradesh 452016, India\"; ObjectID = \"Vyl-ru-nbn\";",
+      "extractionState" : "extracted_with_value",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "P7, Saifee nagar, Indore, Madhya Pradesh 452016, India"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

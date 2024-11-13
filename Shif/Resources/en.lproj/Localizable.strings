@@ -1,0 +1,264 @@
+/* 
+  Localizable.strings
+  Shif
+
+  Created by Techimmense Software Solutions on 02/11/23.
+*/
+
+"No Internet Connection. Make sure your device is connected to the internet" = "No Internet Connection. Make sure your device is connected to the internet";
+
+"Please enter the required details" = "Please enter the required details";
+
+"Please enter the valid email" = "Please enter the valid email";
+
+"OK" = "OK";
+
+"Loading" = "Loading";
+
+"Please Wait!!" = "Please Wait!!";
+
+"Cancel" = "Cancel";
+
+"DATE" = "DATE";
+
+"Done" = "Done";
+
+"Camera" = "Camera";
+
+"Gallery" = "Gallery";
+
+"Yes" = "Yes";
+
+"No" = "No";
+
+"Enter" = "Enter";
+
+"New password has sent to your email!" = "New password has sent to your email!";
+
+"Create New Account" = "Create New Account";
+
+"Required First Name" = "Required First Name";
+
+"Required Last Name" = "Required Last Name";
+
+"Email Address Not Found" = "Email Address Not Found";
+
+"Please Enter the Password!" = "Please Enter the Password!";
+
+"Please Confirm Password" = "Please Confirm Password";
+
+"Please Read the CGU For Proceed" = "Please Read the CGU For Proceed";
+
+"Congratulation Your account has been created successfully!" = "Congratulation Your account has been created successfully!";
+
+"Terms and Conditions" = "Terms and Conditions";
+
+"Privacy Policy" = "Privacy Policy";
+
+"Location Not Found" = "Location Not Found";
+
+"Address added successfully" = "Address added successfully";
+
+"Home" = "Home";
+
+"My Bookings" = "My Bookings";
+
+"Message" = "Message";
+
+"Settings" = "Settings";
+
+"Booking has been cancelled successfully!" = "Booking has been cancelled successfully!";
+
+"Edit Profile" = "Edit Profile";
+
+"Profile updated successfully!" = "Profile updated successfully!";
+
+"My Address" = "My Address";
+
+"Address Deleted Successfully" = "Address Deleted Successfully";
+
+"Change Password" = "Change Password";
+
+"Password changed successfully!" = "Password changed successfully!";
+
+"Language" = "Language";
+
+"Notification" = "Notification";
+
+"Search Results" = "Search Results";
+
+"Details" = "Details";
+
+"Please select the service" = "Please select the service";
+
+"Booking Request" = "Booking Request";
+
+"Please select the time slot" = "Please select the time slot";
+
+"This time slot is already booked by someone!" = "This time slot is already booked by someone!";
+
+"Confirm Booking" = "Confirm Booking";
+
+"Please select the address" = "Please select the address";
+
+"Please select rating!" = "Please select rating!";
+
+"Please enter the feedback" = "Please enter the feedback";
+
+"Rating submitted successfully" = "Rating submitted successfully";
+
+"Contact" = "Contact";
+
+"Write" = "Write";
+
+"Please Enter message" = "Please Enter message";
+
+"Reason" = "Reason";
+
+"Please enter the reason" = "Please enter the reason";
+
+"Payment" = "Payment";
+
+"Card Is Invalid!" = "Card Is Invalid!";
+
+"Card Is Incomplete!" = "Card Is Incomplete!";
+
+"Something Went Wrong!" = "Something Went Wrong!";
+
+"Add Service" = "Add Service";
+
+"Please enter the title" = "Please enter the title";
+
+"Please enter the price" = "Please enter the price";
+
+"Please enter the description" = "Please enter the description";
+
+"Please select the category" = "Please select the category";
+
+"Please select the sub-category" = "Please select the sub-category";
+
+"Service added successfully!" = "Service added successfully!";
+
+"Earning" = "Earning";
+
+"Your booking accepted successfullly!" = "Your booking accepted successfullly!";
+
+"Booking completed successfullly!" = "Booking completed successfullly!";
+
+"Manage Profile" = "Manage Profile";
+
+"Wallet" = "Wallet";
+
+"My Service" = "My Service";
+
+"Deleted Successfully" = "Deleted Successfully";
+
+"Update Service" = "Update Service";
+
+"Service updated successfully!" = "Service updated successfully!";
+
+"Gallary" = "Gallary";
+
+"Gallery photo added successfully" = "Gallery photo added successfully";
+
+"Are you sure to delete this image" = "Are you sure to delete this image";
+
+"Request Details" = "Request Details";
+
+"Choose Account Type" = "Choose Account Type";
+
+"CUSTOMER" = "CUSTOMER";
+
+"PROVIDER" = "PROVIDER";
+
+"I want to look good, i need to book" = "I want to look good, i need to book";
+
+"I am the manager of a hair Provider and i want to add my Provider" = "I am the manager of a hair Provider and i want to add my Provider";
+
+"Forgot Password" = "Forgot Password";
+
+"Service For :" = "Service For :";
+ 
+"You have 1 pending withdraw request for" = "You have 1 pending withdraw request for";
+
+"No pending request found" = "No pending request found";
+
+"Update" = "Update";
+
+"Delete" = "Delete";
+
+"Accept" = "Accept";
+
+"Reject" = "Reject";
+
+"Pending" = "Pending";
+
+"Select Sub Category" = "Select Sub Category";
+
+"Add your Provider details" = "Add your Provider details";
+
+"Add Provider image" = "Add Provider image";
+
+"Add provider Cover Image" = "Add provider Cover Image";
+
+"Provider Name" = "Provider Name";
+
+"Manage Home Service Fee" = "Manage Home Service Fee";
+
+"Write something about your service" = "Write something about your service";
+
+"Select Provider open and close time" = "Select Provider open and close time";
+
+"Your account has been successfully registered. Please wait for the administrator's approval before using the application.
+Thank you for your understanding" = "Your account has been successfully registered. Please wait for the administrator's approval before using the application.
+Thank you for your understanding";
+
+"Your account is being verified.
+Please wait for the administrator's approval before using the application.
+Thank you for your understanding" = "Your account is being verified.
+Please wait for the administrator's approval before using the application.
+Thank you for your understanding";
+
+"Company" = "Company";
+
+"Saved Cards" = "Saved Cards";
+
+"Add Card" = "Add Card";
+
+"Booking sent successfully, please wait for provider confirmation. You can see booking status in My Orders Tab" = "Booking sent successfully, please wait for provider confirmation. You can see booking status in My Orders Tab";
+
+"Card saved successfully!" = "Card saved successfully!";
+
+"Your Booking request is accepted" = "Your Booking request is accepted";
+
+"Your booking request declined by the provider, please book your request with other provider. Thanks" = "Your booking request declined by the provider, please book your request with other provider. Thanks";
+
+"Already one withdraw request sent" = "Already one withdraw request sent";
+
+"Request added successfully" = "Request added successfully";
+
+"Withdraw" = "Withdraw";
+
+"We will contact you soon" = "We will contact you soon";
+
+"Notify Arrived" = "Notify Arrived";
+
+"Notify Start" = "Notify Start";
+
+"Notify Complete" = "Notify Complete";
+
+"Your professional is on the way" = "Your professional is on the way";
+
+"Your professional arrived on your location" = "Your professional arrived on your location";
+
+"Your professional start work" = "Your professional start work";
+
+"Completed" = "Completed";
+
+"Accepted" = "Accepted";
+
+"Notify On The Way" = "Notify On The Way";
+
+"Reviews" = "Reviews";
+
+"Please Read the CGV For Proceed" = "Please Read the CGV For Proceed";
